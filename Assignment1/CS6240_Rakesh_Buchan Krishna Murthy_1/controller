@@ -1,0 +1,60 @@
+2017-09-24T04:11:06.577Z INFO Ensure step 2 jar file s3://rakesh-mapreduce/WordCount/WordCount.jar
+2017-09-24T04:11:09.142Z INFO StepRunner: Created Runner for step 2
+INFO startExec 'hadoop jar /mnt/var/lib/hadoop/steps/s-39IGTG8U0QHD7/WordCount.jar s3://rakesh-mapreduce/WordCount/input s3://rakesh-mapreduce/WordCount/output'
+INFO Environment:
+  PATH=/sbin:/usr/sbin:/bin:/usr/bin:/usr/local/sbin:/opt/aws/bin
+  LESS_TERMCAP_md=[01;38;5;208m
+  LESS_TERMCAP_me=[0m
+  HISTCONTROL=ignoredups
+  LESS_TERMCAP_mb=[01;31m
+  AWS_AUTO_SCALING_HOME=/opt/aws/apitools/as
+  UPSTART_JOB=rc
+  LESS_TERMCAP_se=[0m
+  HISTSIZE=1000
+  HADOOP_ROOT_LOGGER=INFO,DRFA
+  JAVA_HOME=/etc/alternatives/jre
+  AWS_DEFAULT_REGION=us-east-2
+  AWS_ELB_HOME=/opt/aws/apitools/elb
+  LESS_TERMCAP_us=[04;38;5;111m
+  EC2_HOME=/opt/aws/apitools/ec2
+  TERM=linux
+  XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt
+  runlevel=3
+  LANG=en_US.UTF-8
+  AWS_CLOUDWATCH_HOME=/opt/aws/apitools/mon
+  MAIL=/var/spool/mail/hadoop
+  LESS_TERMCAP_ue=[0m
+  LOGNAME=hadoop
+  PWD=/
+  LANGSH_SOURCED=1
+  HADOOP_CLIENT_OPTS=-Djava.io.tmpdir=/mnt/var/lib/hadoop/steps/s-39IGTG8U0QHD7/tmp
+  _=/etc/alternatives/jre/bin/java
+  CONSOLETYPE=serial
+  RUNLEVEL=3
+  LESSOPEN=||/usr/bin/lesspipe.sh %s
+  previous=N
+  UPSTART_EVENTS=runlevel
+  AWS_PATH=/opt/aws
+  USER=hadoop
+  UPSTART_INSTANCE=
+  PREVLEVEL=N
+  HADOOP_LOGFILE=syslog
+  PYTHON_INSTALL_LAYOUT=amzn
+  HOSTNAME=ip-172-31-19-222
+  NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat
+  HADOOP_LOG_DIR=/mnt/var/log/hadoop/steps/s-39IGTG8U0QHD7
+  EC2_AMITOOL_HOME=/opt/aws/amitools/ec2
+  SHLVL=5
+  HOME=/home/hadoop
+  HADOOP_IDENT_STRING=hadoop
+INFO redirectOutput to /mnt/var/log/hadoop/steps/s-39IGTG8U0QHD7/stdout
+INFO redirectError to /mnt/var/log/hadoop/steps/s-39IGTG8U0QHD7/stderr
+INFO Working dir /mnt/var/lib/hadoop/steps/s-39IGTG8U0QHD7
+INFO ProcessRunner started child process 8201 :
+hadoop    8201  4046  0 04:11 ?        00:00:00 bash /usr/lib/hadoop/bin/hadoop jar /mnt/var/lib/hadoop/steps/s-39IGTG8U0QHD7/WordCount.jar s3://rakesh-mapreduce/WordCount/input s3://rakesh-mapreduce/WordCount/output
+2017-09-24T04:11:11.179Z INFO HadoopJarStepRunner.Runner: startRun() called for s-39IGTG8U0QHD7 Child Pid: 8201
+INFO Synchronously wait child process to complete : hadoop jar /mnt/var/lib/hadoop/steps/s-39IGTG8U...
+INFO waitProcessCompletion ended with exit code 0 : hadoop jar /mnt/var/lib/hadoop/steps/s-39IGTG8U...
+INFO total process run time: 382 seconds
+2017-09-24T04:17:31.331Z INFO Step created jobs: job_1506226188361_0001
+2017-09-24T04:17:31.331Z INFO Step succeeded with exitCode 0 and took 382 seconds
